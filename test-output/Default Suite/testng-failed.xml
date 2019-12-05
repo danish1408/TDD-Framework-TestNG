@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="POMFreeCRM(failed)">
+    <classes>
+      <class name="WebManager.HomePageTest">
+        <methods>
+          <include name="verifyUserName"/>
+          <include name="setExtent"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- WebManager.HomePageTest -->
+    </classes>
+  </test> <!-- POMFreeCRM(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

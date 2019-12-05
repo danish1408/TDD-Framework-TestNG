@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FreeCRM]">
+  <listeners>
+    <listener class-name="com.freecrm.ExtendReportListner.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/DANISH/IdeaProjects/POMFreeCRM/src/main/Resource/TestNg(failed)">
+    <classes>
+      <class name="com.freecrm.test.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setExtent"/>
+          <include name="verifyUserName"/>
+          <include name="endReport"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.freecrm.test.HomePageTest -->
+    </classes>
+  </test> <!-- C:/Users/DANISH/IdeaProjects/POMFreeCRM/src/main/Resource/TestNg(failed) -->
+</suite> <!-- Failed suite [FreeCRM] -->
